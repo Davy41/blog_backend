@@ -1,19 +1,17 @@
 {
 	"name": "my-backend",
-  "version": "1.0.0",
-  "main": "app.js",
-  "type": "module",
+	"version": "1.0.0",
+	"main": "app.js",
+	"type": "module",
 	"scripts": {
-		"dev":"nodemon app",
+		"dev": "nodemon app",
 		"start": "node app"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^5.1.0",
 		"mongoose": "^8.19.2",
+		"nano": "^11.0.4",
 		"nodemon": "^3.1.10"
 	}
-	
- 
-	
 }
