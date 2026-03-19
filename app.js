@@ -3,7 +3,7 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors({origin:["http://localhost:5173", "https://coosinblogs.netlify.app"]}));
+app.use(cors({origin:"http://localhost:5173"}));
 app.get("/health-check",(_,res)=>{
     res.json("Backend Is live  ...")
 })
